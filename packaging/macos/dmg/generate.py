@@ -10,6 +10,8 @@ from the machine that made them: no local paths, user or disk names, dates or vo
     python3 packaging/macos/dmg/generate.py
 """
 
+import utils.transport
+import utils.session
 import datetime
 import os
 import shutil
